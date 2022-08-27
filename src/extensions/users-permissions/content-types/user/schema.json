@@ -86,14 +86,14 @@
         "audios"
       ]
     },
-    "groups": {
+    "identifier": {
+      "type": "uid"
+    },
+    "members": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::group.group",
       "mappedBy": "user"
-    },
-    "identifier": {
-      "type": "uid"
     }
   }
 }
